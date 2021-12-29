@@ -16,7 +16,5 @@ if [ -f ".TAG" ]; then
     echo "Error: .TAG file is not updated. Version is already released. Please update .TAG file"
     exit 1
     fi
-else
-echo ".TAG do not exist"
 fi
 
